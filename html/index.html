@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Khan AI Marketplace</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" href="images/favicon/favicon-32x32.png" sizes="32x32">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+
+<body>
+    <header class="app-header">
+        <div class="header-container">
+            <h1 class="logo">
+                <a href="/" class="logo-link">
+                    <img src="images/khan-logo.svg" width="80" height="76" alt="Khan AI Marketplace" loading="lazy">
+                </a>
+            </h1>
+            <nav class="navigation">
+                <ul class="list">
+                    <li class="item"><a href="/" class="item-link">Home</a></li>
+                    <li class="item"><a href="/community" class="item-link">Community</a></li>
+                    <li class="item"><a href="/product" class="item-link">Product</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="page-container">
+        <section class="welcome">
+            <div class="instruction">
+                <h2 class="title">Discover, Test, and Connect to State of the Art AI APIs</h2>
+                <div class="materials">
+                    <img src="images/product/sample-image.webp" alt="Sample Image" class="material">
+                </div>
+            </div>
+        </section>
+
+        <div class="segments">
+            <div class="segment">
+                <h2 class="title">Most Popular Use Cases</h2>
+                <ul class="cases">
+                    <li class="item">
+                        <h3 class="name">Asset Management</h3>
+                        <p class="description">Use the power of AI to gain the edge in markets.</p>
+                    </li>
+                    <li class="item">
+                        <h3 class="name">Customer Service</h3>
+                        <p class="description">Understand sentiment of customer reviews.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Three.js Canvas -->
+        <div id="threejs-container"></div>
+    </main>
+
+    <footer class="app-footer">
+        <div class="footer-content">
+            <p>© 2024 Khan AI Marketplace, All rights reserved</p>
+            <ul class="socials">
+                <li><a href="https://www.facebook.com/KhanAI" target="_blank">Facebook</a></li>
+                <li><a href="https://twitter.com/KhanAI" target="_blank">Twitter</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

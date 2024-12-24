@@ -1,0 +1,132 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.app-header {
+    background-color: #000220;
+    color: white;
+    padding: 20px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-link img {
+    display: block;
+}
+
+.navigation {
+    display: flex;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.item {
+    margin-left: 20px;
+}
+
+.item-link {
+    color: white;
+    text-decoration: none;
+}
+
+.item-link:hover {
+    text-decoration: underline;
+}
+
+.page-container {
+    padding: 20px;
+}
+
+.welcome {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.materials img {
+    max-width: 100%;
+    height: auto;
+}
+
+.segments {
+    margin-top: 40px;
+}
+
+.segment {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.cases {
+    list-style: none;
+    padding: 0;
+}
+
+.item {
+    margin-bottom: 20px;
+}
+
+.name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 16px;
+}
+
+.app-footer {
+    background-color: #000220;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.socials {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.socials li {
+    margin: 0 10px;
+}
+
+.socials a {
+    color: white;
+    text-decoration: none;
+}
+
+.socials a:hover {
+    text-decoration: underline;
+}
+
+/* Three.js Container */
+#threejs-container {
+    width: 100%;
+    height: 400px; /* Adjust height as needed */
+    margin-top: 20px;
+    background-color: #eaeaea; /* Optional background color */
+}
